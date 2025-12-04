@@ -1,6 +1,60 @@
+.hidden {
+  display: none;
+}
+
 .page-header {
   background-color: #75d281;
 }
 
+.burger-btn {
+  display: none;
+}
+
 @media screen and (min-width: 1440px) {
+  .container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-link {
+    margin-right: 175px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .nav-item {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
+  }
+
+  .contacts {
+    font-style: normal;
+  }
+
+  .contacts-list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
 }

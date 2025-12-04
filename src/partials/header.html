@@ -1,23 +1,19 @@
 <!--Юлія-->
 <header class="page-header">
   <div class="container header-container">
-    <div class="">
-      <a href="#" class="logo-link">
-        <svg class="" width="120" height="38">
-          <use href="/img/logo.svg" class="logo-svg"></use>
-        </svg>
+    <nav class="header-nav">
+      <a href="/index.html" class="logo-link">
+        <img src="/img/logo.svg" width="80" height="30" />
       </a>
-      <nav class="nav-menu">
-        <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link" href="#">Про нас</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Переваги</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Асортимент</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Галерея</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Відгуки</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Контакти</a></li>
-        </ul>
-      </nav>
-    </div>
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="#">Про нас</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Переваги</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Асортимент</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Галерея</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Відгуки</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Контакти</a></li>
+      </ul>
+    </nav>
     <address class="contacts">
       <ul class="contacts-list">
         <li class="contacts-item">
@@ -32,34 +28,47 @@
         </li>
       </ul>
     </address>
+
+    <button class="burger-btn hidden" data-menu-open>
+      <svg class="burger-icon" width="16" height="12">
+        <use href="/img/icons.svg#icon-menu"></use>
+      </svg>
+    </button>
   </div>
 
-  <div class="mobile-menu" data-menu>
+  <div class="mobile-menu hidden" data-menu>
     <div class="container mobile-menu-container">
-      <button class="mobile-menu-close" type="button" data-menu-close>
-        <svg class="mobile-menu-svg" width="8" height="8">
-          <use href="./images/icons.svg#icon-icon-close"></use>
-        </svg>
-      </button>
+      <div class="mob-logo">
+        <a href="#" class="logo-link">
+          <img src="/img/logo.svg" width="80" height="30" />
+        </a>
+      </div>
+      <div class="mob-btn">
+        <button class="mobile-menu-close" type="button" data-menu-close>
+          <svg class="mobile-menu-svg" width="15" height="15">
+            <use href="./img/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
       <nav class="mobile-nav">
         <ul class="mobile-nav-list">
           <li class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link current">Studio</a>
+            <a href="#" class="mobile-nav-link current">Про нас</a>
           </li>
           <li class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link">Portfolio</a>
+            <a href="#" class="mobile-nav-link">Переваги</a>
           </li>
           <li class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link">Contacts</a>
+            <a href="#" class="mobile-nav-link">Асортимент</a>
           </li>
           <li class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link current">Studio</a>
+            <a href="#" class="mobile-nav-link current">Галерея</a>
           </li>
           <li class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link">Portfolio</a>
+            <a href="#" class="mobile-nav-link">Відгуки</a>
           </li>
           <li class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link">Contacts</a>
+            <a href="#" class="mobile-nav-link">Контакти</a>
           </li>
         </ul>
       </nav>
@@ -67,50 +76,18 @@
         <ul class="mobile-address-list">
           <li class="mobile-address-item">
             <a
-              href="tel:+110001111111"
+              href="tel:+380999091122"
               class="mobile-address-link mobile-contact-link"
-              >+11 (000) 111-11-11</a
+              >+38 (099) 909 11 22</a
             >
           </li>
           <li class="mobile-address-item">
-            <a href="mailto:info@devstudio.com" class="mobile-address-link"
-              >info@devstudio.com</a
+            <a href="mailto:hello@ecotote.com" class="mobile-address-link"
+              >hello@ecotote.com</a
             >
           </li>
         </ul>
       </address>
-      <div class="mobile-socials">
-        <ul class="mobile-socials-list">
-          <li class="mobile-socials-item">
-            <a href="https://www.instagram.com/" class="mobile-socials-link"
-              ><svg class="mobile-socials-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mobile-socials-item">
-            <a href="https://x.com/" class="mobile-socials-link">
-              <svg class="mobile-socials-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mobile-socials-item">
-            <a href="https://www.facebook.com/" class="mobile-socials-link">
-              <svg class="mobile-socials-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mobile-socials-item">
-            <a href="https://www.linkedin.com/" class="mobile-socials-link"
-              ><svg class="mobile-socials-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
     </div>
   </div>
 </header>
