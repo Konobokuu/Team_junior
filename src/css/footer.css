@@ -116,7 +116,7 @@ body {
   color: #030a06;
   text-align: center;
 }
-/* footer-tablet */
+/* footer-tablet  */
 @media screen and (min-width: 768px) {
   .page-footer {
     padding: 64px 0;
