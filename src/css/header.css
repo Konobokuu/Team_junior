@@ -165,4 +165,8 @@ a {
     flex-direction: row;
     gap: 16px;
   }
+
+  .mobile-menu {
+    display: none;
+  }
 }
