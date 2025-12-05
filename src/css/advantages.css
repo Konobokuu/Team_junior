@@ -28,6 +28,8 @@ font-family: "Comfortaa", sans-serif;
     color: #030a06;
     align-items: center;
     margin-bottom: 12px;
+    max-width: 288px;
+    flex-wrap: wrap;
 }
 
 .advantages-text {
@@ -38,4 +40,8 @@ font-family: "Comfortaa", sans-serif;
         color: #030a06;
         align-items: center;
         margin-bottom: 20px;
+}
+
+.list-section-advantages {
+    justify-content: center;
 }
