@@ -45,4 +45,5 @@ font-family: "Comfortaa", sans-serif;
 .list-section-advantages {
     justify-content: center;
     width: 288px;
+    align-items: center;
 }
