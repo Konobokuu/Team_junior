@@ -1,48 +1,80 @@
 .section-advantages {
     padding: 32px 0;
+    background: #ebf8ed;
 }
 
 .container-advantages {
-    max-width: 320px;
-    align-items: center;
+    width: 100%;
     margin: 0 auto;
+    text-align: center;
+    max-width: 320px;
 }
 
 .subtitle {
     font-family: "Fira Sans", sans-serif;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #030a06;
-        max-width: 72px;
-        margin-bottom: 0;
-
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #030a06;
+    margin-bottom: 12px;
 }
 
 .title-advantages {
-font-family: "Comfortaa", sans-serif;
+    font-family: "Comfortaa", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.01em;
     color: #030a06;
-    align-items: center;
-    margin-bottom: 12px;
-    max-width: 288px;
-    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .advantages-text {
     font-family: "Fira Sans", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.6;
-        color: #030a06;
-        align-items: center;
-        margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
 }
 
 .list-section-advantages {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 288px;
+    gap: 48px;
+    margin: 0 auto;
+}
+
+.list-advantages-item {
+    display: block;
+    max-width: 288px;
+    text-align: center;
+}
+
+.list-advantages-item picture {
+    display: block;
+    border-radius: 32px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.subtitle-advantages {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    color: #030a06;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.subtitle-advantages-text {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
+    text-align: left;
 }
