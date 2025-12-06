@@ -1,42 +1,57 @@
 <!--Володимир-->
 <section class="support-section" id="support">
-  <div class="container">
-    <h2 class="support-title">Залишились питання? Зв'яжіться з нами!</h2>
-    <h3 class="support-subtitle">Ми тут, щоб допомогти!</h3>
+  <div class="container support-container">
+    <div class="support-wrapper">
+      <div class="support-content">
+        <h2 class="support-title">
+          Залишились питання?<br />
+          Зв'яжіться з нами!
+        </h2>
+        <h3 class="support-subtitle">Ми тут, щоб допомогти!</h3>
 
-    <form class="support-form">
-      <div class="form-group">
-        <label class="form-label" for="name">Ім'я</label>
-        <input
-          class="input input-name"
-          id="name"
-          type="text"
-          name="name"
-          placeholder="Іван"
-        />
+        <form class="support-form">
+          <div class="form-group">
+            <label class="form-label" for="name">Ім'я</label>
+            <input
+              class="input input-name"
+              id="name"
+              type="text"
+              name="name"
+              placeholder="Іван"
+              required
+              minlength="5"
+              maxlength="64"
+            />
+            <p class="text-invalid">Error text</p>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Електронна пошта</label>
+            <input
+              class="input input-email"
+              id="email"
+              type="email"
+              name="email"
+              placeholder="hello@ecotote.com"
+              required
+              pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            />
+            <p class="text-invalid">Error text</p>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Повідомлення</label>
+            <textarea
+              class="input input-message"
+              id="message"
+              name="message"
+              placeholder="Введіть своє повідомлення..."
+              maxlength="500"
+            ></textarea>
+          </div>
+          <button class="btn btn-submit" type="submit">Ніслати</button>
+        </form>
       </div>
-      <div class="form-group">
-        <label class="form-label" for="email">Електронна пошта</label>
-        <input
-          class="input input-email"
-          id="email"
-          type="email"
-          name="email"
-          placeholder="hello@ecotote.com"
-        />
-      </div>
-      <div class="form-group">
-        <label class="form-label" for="message">Повідомлення</label>
-        <textarea
-          class="input input-message"
-          id="message"
-          name="message"
-          placeholder="Введіть своє повідомлення..."
-        ></textarea>
-      </div>
-      <button class="btn btn-submit" type="submit">Ніслати</button>
-    </form>
 
-    <div class="support-img"></div>
+      <div class="support-img"></div>
+    </div>
   </div>
 </section>
