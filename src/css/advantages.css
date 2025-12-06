@@ -27,6 +27,7 @@
     letter-spacing: 0.01em;
     color: #030a06;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .advantages-text {
