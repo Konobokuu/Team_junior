@@ -33,8 +33,8 @@
 
 .assortment-div {
     width: 288px;
-    padding: 16px 0;
-
+    margin: 16px 0;
+    height: 113px;
 }
 
 .assortment-sub {
