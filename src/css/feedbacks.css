@@ -1,3 +1,4 @@
+
 .container{
     max-width: 320px;
     width: 100%;
@@ -18,7 +19,7 @@
     }
 }
 
-.reviews-titel{
+.feedbacks-titel{
 color: #030a06;
 letter-spacing: 0.01em;
 text-align: center;
@@ -29,46 +30,46 @@ font-family: 'Comfortaa',
 padding: 32px 0;
 }
 @media screen and (min-width:1440px){
-.reviews-titel{
+.feedbacks-titel{
 font-size: 48px;
 max-width: 562px;
 margin: 0 auto;
 }
 }
-.reviews-list{
+.feedbacks-list{
 display: flex;
 flex-wrap: wrap;
 gap: 40px;
 justify-content: center;
 }
 @media screen and (min-width:768px){
-    .reviews-list{
+    .feedbacks-list{
     gap: 32px 24px
     }
 }
 @media screen and (min-width:1440px){
-    .reviews-list{
+    .feedbacks-list{
 flex-direction: row;
 flex-wrap: nowrap;
 gap: 24px
     }
 }
 
-.reviews-list-item{
+.feedbacks-list-item{
     width: 288px;
     height: 158px;
      min-width: 280px;
 }
 
 @media screen and (min-width:768px) {
-    .reviews-list-item {
+    .feedbacks-list-item {
      width: 340px;
      height: 182px;
     min-width: 280px;
         }
 }
 @media screen and (min-width:1440px) {
-    .reviews-list-item {
+    .feedbacks-list-item {
         width: 310px;
         height: 182px;
     }
@@ -93,7 +94,7 @@ width: 24px;
 height: 24px;
 
 }
-.reviews-list-item-text{
+.feedbacks-list-item-text{
 color: #030a06;
 letter-spacing: 0.01em;
 font-weight: 500;
@@ -102,10 +103,11 @@ font-size: 20px;
 font-family: "Comfortaa", sans-serif; ;
 padding-bottom: 12px;
 }
-.reviews-list-item-name{
+.feedbacks-list-item-name{
 color: #030a06;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.6;
 font-family: "Fira Sans", sans-serif;
+
 }
