@@ -6,7 +6,6 @@
     text-align: center;
     padding: 32px 16px;
     font-family: "Comfortaa", sans-serif;
-
 }
 
 .assortment {
@@ -39,6 +38,7 @@
 }
 
 .assortment-sub {
+    font-family: "Fira", sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 160%;
@@ -62,117 +62,21 @@
     padding-bottom: 16px;
 }
 
-/* #region four */
+.assortment-button {
+    display: block;
 
-.sect-four {
-    padding: 96px 0;
+    margin: 0 auto;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0;
+    border-radius: 6px;
+    height: 40px;
+    align-items: center;
+    width: 288px;
+    min-width: 288px;
+    cursor: pointer;
+    border: 1px solid #030A06;
+    background-color: transparent;
 }
-
-.sect-four-ul {}
-
-
-
-.sect-four-img {
-    position: relative;
-    overflow: hidden;
-}
-
-.sect-four-img img {
-    width: 100%;
-    height: auto;
-}
-
-.sect-four-p-hidden {
-    display: none;
-}
-
-
-
-@media screen and (min-width: 768px) {
-    .sect-four-div {
-        width: 360px;
-        height: 120px;
-        padding: 32px 16px;
-        border: 0px solid #e7e9fc;
-        border-top: none;
-    }
-}
-
-.sect-four-sub {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-    padding-bottom: 8px;
-}
-
-@media (min-width: 768px) {
-    .sect-four-li {
-        width: 356px;
-    }
-
-    .sect-four-ul {
-        gap: 72px 24px;
-        justify-content: center;
-    }
-}
-
-@media (min-width: 1158px) {
-
-    .sect-four {
-        padding: 120px 0;
-    }
-
-    .sect-four-ul {
-        width: 1128px;
-        margin: 0 auto;
-        gap: 48px 24px;
-    }
-
-    .sect-four-li {
-        width: 360px;
-        height: 420px;
-        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .sect-four-img {
-        width: 360px;
-        height: 300px;
-        overflow: hidden;
-        position: relative;
-    }
-
-    .sect-four-p-hidden {
-        display: block;
-        position: absolute;
-        inset: 0;
-        background: #4d5ae5;
-        color: #f4f4fd;
-        font-size: 16px;
-        line-height: 1.5;
-        padding: 40px 32px;
-        transform: translateY(100%);
-        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .sect-four-li:hover .sect-four-p-hidden {
-        transform: translateY(0%);
-    }
-
-    .sect-four-li:hover {
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-            0px 1px 1px rgba(46, 47, 66, 0.16),
-            0px 2px 1px rgba(46, 47, 66, 0.08);
-    }
-
-    .sect-four-div {
-        width: 360px;
-        height: 120px;
-        padding: 32px 16px;
-        border: 1px solid #e7e9fc;
-        border-top: none;
-    }
-}
-
-/* #endregion sect-four */
