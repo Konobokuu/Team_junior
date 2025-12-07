@@ -108,6 +108,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
+    align-items: start;
 }
 }
 
@@ -160,9 +161,14 @@
         width: 100%;
         height: auto;
         margin-bottom: 32px;
-    }
-}
 
+    }
+
+    .strenght {
+        margin-bottom: 42.68px;
+
+}
+}
 .subtitle-advantages {
     font-family: "Comfortaa", sans-serif;
     font-weight: 700;
