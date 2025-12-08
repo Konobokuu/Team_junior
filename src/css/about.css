@@ -1,6 +1,6 @@
 .about-container {
-    background-image: url(../img/about/about-mob-1x.jpg);
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/about/about-mob-1x.jpg);
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -14,8 +14,8 @@
 
 @media screen and (min-width: 768px) {
     .about-container {
-        background-image: url(../img/about/about-tab-1x.jpg);
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);  
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/about/about-tab-1x.jpg);
+        
 
     }
 }
@@ -27,8 +27,8 @@
 
 @media screen and (min-width: 1440px) {
     .about-container {
-        background-image: url(../img/about/about-desk-1x.jpg);
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/about/about-desk-1x.jpg);
+     
     }
 }
 @media (min-resolution: 192dpi) {
@@ -44,6 +44,7 @@
     line-height: 1.5;
     text-align: center;
     color: #fff;
+    margin-top: 112px;
 }
 
 
@@ -55,7 +56,8 @@
     line-height: 1.2;
     letter-spacing: 0.01em;
     text-align: center;
-    color: #fff
+    color: #fff;
+
 }
 
 
