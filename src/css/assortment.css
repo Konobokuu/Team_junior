@@ -6,12 +6,19 @@
     text-align: center;
     padding: 32px 16px;
     font-family: "Comfortaa", sans-serif;
+<<<<<<< HEAD
 
 }
 
 .assortment {
 
     gap: 48px;
+=======
+}
+
+.assortment {
+    padding: 64px 0;
+>>>>>>> main
 }
 
 .assortment-ul {
@@ -19,31 +26,53 @@
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
+<<<<<<< HEAD
+=======
+    font-family: 'Fira sans', sans-serif;
+>>>>>>> main
 }
 
 .assortment-li {
     width: 288px;
     min-width: 200px;
     text-align: center;
+<<<<<<< HEAD
+=======
+    margin: 0 auto;
+>>>>>>> main
 }
 
 .assortment img {
     border-radius: 32px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 }
 
 .assortment-div {
     width: 288px;
+<<<<<<< HEAD
     padding: 16px 0;
 
 }
 
 .assortment-sub {
+=======
+    margin: 16px 0;
+}
+
+.assortment-sub {
+    font-family: 'Fira sans', sans-serif;
+>>>>>>> main
     font-weight: 600;
     font-size: 18px;
     line-height: 160%;
     letter-spacing: 0;
+<<<<<<< HEAD
     padding-bottom: 8px;
+=======
+>>>>>>> main
 }
 
 .assortment-p {
@@ -59,6 +88,7 @@
     line-height: 160%;
     letter-spacing: 0;
     padding-top: 8px;
+<<<<<<< HEAD
     padding-bottom: 16px;
 }
 
@@ -176,3 +206,91 @@
 }
 
 /* #endregion sect-four */
+=======
+}
+
+.assortment-button {
+    display: block;
+    margin: 0 auto;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0;
+    border-radius: 6px;
+    height: 40px;
+    align-items: center;
+    width: 288px;
+    min-width: 288px;
+    cursor: pointer;
+    border: 1px solid #030A06;
+    background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+
+    .assortment-ul {
+        gap: 48px 24px;
+        justify-content: center;
+    }
+
+    .assortment-li {
+        width: 340px;
+    }
+
+    .assortment-div {
+        width: 340px;
+        margin: 16px 0;
+        height: 113px;
+    }
+
+    .assortment img {
+        border-radius: 32px;
+        width: 340px;
+    }
+
+    .assortment-button {
+        width: 340px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .assortment-title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        padding: 0 0 32px 0;
+        font-family: "Comfortaa", sans-serif;
+    }
+
+    .assortment-ul {
+        gap: 64px 24px;
+        justify-content: center;
+    }
+
+    .assortment-li {
+        width: 310px;
+    }
+
+    .assortment-div {
+        width: 310px;
+        margin: 16px 0;
+        height: 113px;
+    }
+
+    .assortment img {
+        border-radius: 32px;
+        width: 310px;
+    }
+
+    .assortment-button {
+        width: 310px;
+    }
+}
+>>>>>>> main

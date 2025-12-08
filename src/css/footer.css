@@ -3,7 +3,6 @@ body {
   background-color: #ebf8ed;
   color: #030a06;
 }
-/* footer mobile */
 
 .page-footer {
   padding: 48px 20px;
@@ -17,6 +16,7 @@ body {
   align-items: center;
   gap: 48px;
 }
+
 .footer-logo {
   max-width: 281px;
 }
@@ -195,6 +195,7 @@ body {
     height: 15px;
     fill: #030a06;
   }
+
   .footer-divider {
     max-width: 1312px;
     margin-top: 52px;

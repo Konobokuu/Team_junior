@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 .container{
+=======
+.container {
+>>>>>>> main
     max-width: 320px;
     width: 100%;
     margin: 0 auto;
     padding: 0 16px;
 }
+<<<<<<< HEAD
 @media screen and (min-width:768px){
    .container{
     max-width: 768px;
@@ -69,10 +74,90 @@ gap: 24px
 }
 @media screen and (min-width:1440px) {
     .reviews-list-item {
+=======
+
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .container {
+        max-width: 1440px;
+        padding: 0 15px;
+        font-family: 'Comfortaa', sans-serif;
+    }
+}
+
+.feedbacks-titel {
+    color: #030a06;
+    letter-spacing: 0.01em;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Comfortaa',
+        sans-serif;
+    padding: 32px 0;
+}
+
+@media screen and (min-width:1440px) {
+    .feedbacks-titel {
+        font-size: 48px;
+        max-width: 562px;
+        margin: 0 auto;
+        padding-bottom: 80px;
+        padding-top: 64px;
+    }
+}
+
+.feedbacks-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+@media screen and (min-width:768px) {
+    .feedbacks-list {
+        gap: 32px 24px
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .feedbacks-list {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 24px;
+        padding-bottom: 64px;
+    }
+}
+
+.feedbacks-list-item {
+    width: 288px;
+    height: 158px;
+    min-width: 280px;
+}
+
+@media screen and (min-width:768px) {
+    .feedbacks-list-item {
+        width: 340px;
+        height: 182px;
+        min-width: 280px;
+        
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .feedbacks-list-item {
+>>>>>>> main
         width: 310px;
         height: 182px;
     }
 }
+<<<<<<< HEAD
 .stars-list{
 display: flex;
 align-items: center;
@@ -108,4 +193,47 @@ font-weight: 700;
 font-size: 16px;
 line-height: 1.6;
 font-family: "Fira Sans", sans-serif;
+=======
+
+.stars-list {
+    display: flex;
+    align-items: center;
+
+    gap: 4px;
+    padding-bottom: 12px;
+    fill: #3ac04c;
+
+}
+
+@media screen and (min-width:768px) {
+    .stars-list {
+        padding-bottom: 24px;
+    }
+}
+
+.stars-list-item {
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+
+}
+
+.feedbacks-list-item-text {
+    color: #030a06;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: "Comfortaa", sans-serif;
+    ;
+    padding-bottom: 12px;
+}
+
+.feedbacks-list-item-name {
+    color: #030a06;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: "Fira Sans", sans-serif;
+>>>>>>> main
 }
