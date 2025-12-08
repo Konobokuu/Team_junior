@@ -113,9 +113,11 @@
     order: 1;
     height: 421px;
   }
+
   .gallery-item--3 {
     order: 4;
   }
+
   .gallery-item--2 {
     order: 3;
   }
