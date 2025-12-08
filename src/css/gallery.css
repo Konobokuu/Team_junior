@@ -93,6 +93,26 @@
     order: 4;
     height: 338px;
   }
+
+  .photo--young-woman {
+    height: 338px;
+    object-fit: cover;
+  }
+
+  .photo--walker {
+    height: 700px;
+    object-fit: cover;
+  }
+
+  .photo--city-scene {
+    height: 700px;
+    object-fit: cover;
+  }
+
+  .photo--eco-tote {
+    height: 338px;
+    object-fit: cover;
+  }
 }
 
 @media (min-width: 1440px) {
