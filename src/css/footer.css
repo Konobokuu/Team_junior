@@ -3,10 +3,7 @@ body {
   background-color: #ebf8ed;
   color: #030a06;
 }
-a {
-  text-decoration: none;
-  color: inherit;
-}
+
 /* footer mobile */
 
 .page-footer {
@@ -21,6 +18,7 @@ a {
   align-items: center;
   gap: 48px;
 }
+
 .footer-logo {
   max-width: 281px;
 }
@@ -133,11 +131,13 @@ a {
   .icons-svg {
     width: 30px;
     height: 30px;
+    fill: #000;
   }
 
   .youtube .icons-svg {
     width: 34px;
     height: 24px;
+    fill: #030a06;
   }
 
   .footer-divider {
@@ -189,35 +189,17 @@ a {
   .icons-svg {
     width: 18px;
     height: 18px;
+    fill: #000;
   }
 
   .youtube .icons-svg {
     width: 21px;
     height: 15px;
+    fill: #030a06;
   }
 
   .footer-divider {
     max-width: 1312px;
     margin-top: 52px;
-  }
-
-  .footer-nav .nav-link {
-    position: relative;
-    padding-bottom: 5px;
-  }
-
-  .footer-nav .nav-link::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #030a06;
-  }
-
-  .footer-nav .nav-link:hover::after,
-  .footer-nav .nav-link:focus::after {
-    width: 100%;
   }
 }
