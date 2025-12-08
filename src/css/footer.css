@@ -1,0 +1,202 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #ebf8ed;
+  color: #030a06;
+}
+/* footer mobile */
+
+.page-footer {
+  padding: 48px 20px;
+  background-color: #75d281;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+.footer-logo {
+  max-width: 281px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.footer-item {
+  line-height: 1.6;
+  color: #030a06;
+}
+
+.icons-list {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.icons-list-link {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-svg {
+  width: 24px;
+  height: 24px;
+  fill: #000;
+}
+
+.youtube .icons-svg {
+  width: 27px;
+  height: 19px;
+  fill: #030a06;
+}
+
+.footer-divider {
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(3, 10, 6, 0.15);
+  max-width: 280px;
+}
+
+.page-footer .contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  font-style: normal;
+  padding: 24px 0;
+}
+
+.contacts .contacts-list {
+  text-align: center;
+}
+
+.contacts-item {
+  line-height: 1.6;
+  color: #030a06;
+  margin-bottom: 16px;
+}
+
+.contacts-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #030a06;
+  text-align: center;
+}
+
+/* footer-tablet  */
+
+@media screen and (min-width: 768px) {
+  .page-footer {
+    padding: 64px 32px;
+  }
+
+  .footer-content {
+    gap: 32px;
+  }
+
+  .footer-logo {
+    max-width: 164px;
+  }
+
+  .footer-list {
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .icons-list-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons-svg {
+    width: 30px;
+    height: 30px;
+    fill: #000;
+  }
+
+  .youtube .icons-svg {
+    width: 34px;
+    height: 24px;
+    fill: #030a06;
+  }
+
+  .footer-divider {
+    margin-top: 24px;
+    max-width: 704px;
+  }
+
+  .page-footer .contacts {
+    flex-direction: row;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 0;
+  }
+
+  .contacts .contacts-list {
+    display: flex;
+    gap: 32px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+/* footer descktop */
+
+@media screen and (min-width: 1440px) {
+  .page-footer {
+    padding: 80px 64px;
+  }
+
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .footer-logo {
+    width: 159px;
+  }
+
+  .icons-list-link {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons-svg {
+    width: 18px;
+    height: 18px;
+    fill: #000;
+  }
+
+  .youtube .icons-svg {
+    width: 21px;
+    height: 15px;
+    fill: #030a06;
+  }
+  .footer-divider {
+    max-width: 1312px;
+    margin-top: 52px;
+  }
+}

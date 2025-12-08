@@ -1,6 +1,7 @@
 .gallery {
   padding: 32px 16px;
   background-color: #ebf8ed;
+  text-align: center;
 }
 
 .gallery-title {
@@ -27,32 +28,107 @@
 
 .gallery-list {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
   gap: 16px;
   padding: 0;
   margin: 0;
-  flex-direction: column;
+  list-style: none;
 }
 
 .gallery-item {
-  display: flex;
-  justify-content: center;
-}
-
-@media (min-width: 768px) {
-  .gallery-list {
-    flex-direction: row;
-  }
-
-  .gallery-item {
-    flex: 1 1 calc(50% - 8px);
-    min-width: 0;
-  }
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .gallery-item-picture {
   display: block;
-  border-radius: 8px;
-  margin: 0 auto;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.list-item-photo,
+.lady-picture {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .gallery {
+    padding: 64px 32px;
+  }
+
+  .gallery-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: self-start;
+    gap: 26px 24px;
+  }
+
+  .gallery-item {
+    flex-basis: calc((100% - 24px) / 2);
+    margin: 0;
+    padding: 0;
+  }
+
+  .gallery-title {
+    max-width: none;
+    margin-bottom: 24px;
+  }
+
+  .item-1 {
+    order: 4;
+  }
+
+  .item-2 {
+    order: 2;
+  }
+
+  .item-3 {
+    order: 3;
+  }
+
+  .item-4 {
+    order: 1;
+  }
+}
+
+@media (min-width: 1440px) {
+  .gallery {
+    padding: 80px 16px;
+  }
+
+  /* Use CSS Grid for desktop to get even columns without side gaps */
+  .gallery-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px 24px;
+    align-items: start;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .gallery-item {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Ensure pictures fill their grid cells and cannot overflow */
+  .gallery-item-picture,
+  .gallery-item-picture img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
 }
