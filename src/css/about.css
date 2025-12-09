@@ -14,47 +14,6 @@
     }
 }
 
-@media screen and (min-width: 768px) {
-    .about-container {
-        background-image: url(/img/about/about-tab-1x.jpg);
-        width: 768px;
-        height: 325px;
-        margin: 0 auto;
-        
-    }
-     .about-title {
-        padding-top: 80px;
-    }
-}
-
-
-@media screen and (min-width: 768px) {
-        .about-text {
-        font-size: 18px;
-        max-width: 573px;
-        margin: 0 auto;
-    }
-}
-@media (min-width: 768px) and (min-resolution: 192dpi) {
-    .about-container {
-        background-image: url(/img/about/about-tab-2x.jpg);
-    }
-}
-
-@media screen and (min-width: 1440px) {
-     .about-container {
-        background-image: url(/img/about/about-desk-1x.jpg);
-        width: 1440px;
-        height: 462px;
-        margin: 0 auto;
-        
-     }     
-}
-@media (min-width: 1440px) and (min-resolution: 192dpi) {
-    .about-container {
-        background-image: url(/img/about/about-desk-2x.jpg);
-    }
-}
 
 .about-title {
     font-family: "Fira Sans", sans-serif;
@@ -88,6 +47,49 @@
     margin-top: 20px;
 }
 
+@media screen and (min-width: 768px) {
+    .about-container {
+        background-image: url(/img/about/about-tab-1x.jpg);
+        width: 768px;
+        height: 325px;
+        margin: 0 auto;
+        
+    }
+     .about-title {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+        .about-text {
+        font-size: 18px;
+        max-width: 573px;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+}
+@media (min-width: 768px) and (min-resolution: 192dpi) {
+    .about-container {
+        background-image: url(/img/about/about-tab-2x.jpg);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+     .about-container {
+        background-image: url(/img/about/about-desk-1x.jpg);
+        width: 1440px;
+        height: 462px;
+        margin: 0 auto;
+        
+     }     
+}
+@media (min-width: 1440px) and (min-resolution: 192dpi) {
+    .about-container {
+        background-image: url(/img/about/about-desk-2x.jpg);
+    }
+}
+
+
 @media screen and (min-width: 1440px) {
         .about-subtitle {
         font-size: 56px;
@@ -105,6 +107,6 @@
         .about-text {
         font-size: 18px;
         max-width: 573px;
-       
+       margin-top: 24px;
     }
 }
