@@ -14,7 +14,6 @@
     }
 }
 
-
 .about-title {
     font-family: "Fira Sans", sans-serif;
     font-weight: 600;
@@ -24,7 +23,6 @@
     color: #fff;
     padding-top: 64px;
 }
-
 
 .about-subtitle {
     font-family: "Comfortaa", sans-serif;
@@ -53,13 +51,11 @@
         width: 768px;
         height: 325px;
         margin: 0 auto;
-        
     }
      .about-title {
         padding-top: 80px;
     }
 }
-
 @media screen and (min-width: 768px) {
         .about-text {
         font-size: 18px;
@@ -73,6 +69,7 @@
         background-image: url(/img/about/about-tab-2x.jpg);
     }
 }
+
 
 @media screen and (min-width: 1440px) {
      .about-container {
@@ -88,8 +85,6 @@
         background-image: url(/img/about/about-desk-2x.jpg);
     }
 }
-
-
 @media screen and (min-width: 1440px) {
         .about-subtitle {
         font-size: 56px;
