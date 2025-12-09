@@ -90,7 +90,7 @@
 @media screen and (min-width: 1440px) {
     .advantages-text {
         margin-bottom: 80px;
-        max-width: 768;
+        max-width: 768px;
     }
 }
 
@@ -174,7 +174,7 @@
     text-align: left;
 }
 
-@media screen and (min-width: 1440) {
+@media screen and (min-width: 1440px) {
     .subtitle-advantages {
         font-size: 32px;
         margin-bottom: 24px;
