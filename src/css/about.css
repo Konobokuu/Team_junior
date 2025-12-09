@@ -20,14 +20,14 @@
         width: 768px;
         height: 325px;
         margin: 0 auto;
+        
     }
-}
-
-@media screen and (min-width: 768px) {
-    .about-title {
+     .about-title {
         padding-top: 80px;
     }
 }
+
+
 @media screen and (min-width: 768px) {
         .about-text {
         font-size: 18px;
@@ -43,7 +43,7 @@
 
 @media screen and (min-width: 1440px) {
      .about-container {
-        background-image: url(../img/about/about-desk-1x.jpg);
+        background-image: url(/img/about/about-desk-1x.jpg);
         width: 1440px;
         height: 462px;
         margin: 0 auto;
@@ -63,7 +63,7 @@
     line-height: 1.5;
     text-align: center;
     color: #fff;
-    
+    padding-top: 64px;
 }
 
 
