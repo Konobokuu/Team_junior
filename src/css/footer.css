@@ -199,4 +199,23 @@ body {
     max-width: 1312px;
     margin-top: 52px;
   }
+  .footer-nav .nav-link {
+    position: relative;
+    padding-bottom: 5px;
+  }
+
+  .footer-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #030a06;
+  }
+
+  .footer-nav .nav-link:hover::after,
+  .footer-nav .nav-link:focus::after {
+    width: 100%;
+  }
 }
