@@ -118,10 +118,11 @@ a {
 }
 
 .mobile-nav-item {
+  font-family: 'Fira Sans', sans-serif;
+  color: #030a06;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.16;
-  color: #030a06;
 }
 
 .mobile-address-list {
@@ -131,6 +132,11 @@ a {
 }
 
 .page-header .header-contacts .contacts-item {
+  font-family: 'Fira Sans', sans-serif;
+  color: #030a06;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.16;
   margin: 0;
 }
 
@@ -198,6 +204,7 @@ a {
   }
 
   .header-nav .nav-item {
+    font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
