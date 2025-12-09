@@ -1,5 +1,5 @@
 .about-container {
-    background-image: url(../img/about/about-mob-1x.jpg);
+    background-image: url(/img/about/about-mob-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -8,61 +8,51 @@
     height: 348px;
  
 }
-@media (min-width: 320px) and (min-resolution: 192dpi) {
+@media (min-width: 0px) and (min-resolution: 192dpi) {
      .about-container {
-        background-image: url(../img/about/about-mob-2x.jpg);
+        background-image: url(/img/about/about-mob-2x.jpg);
     }
 }
 
 @media screen and (min-width: 768px) {
     .about-container {
-        background-image: url(../img/about/about-tab-1x.jpg);
-        padding: 80px 32px;
+        background-image: url(/img/about/about-tab-1x.jpg);
         width: 768px;
-        height: 325px
-    }
-    .about-title {
-        padding-top: 84px;
-        padding-bottom: 16px;
-    }
-    .about-subtitle {
-        padding-bottom: 16px;
-     
-    }
-    .about-text {
+        height: 325px;
         margin: 0 auto;
-        max-width: 573px;
-        font-size: 18px;
     }
-    
+}
+
+@media screen and (min-width: 768px) {
+    .about-title {
+        padding-top: 80px;
+    }
+}
+@media screen and (min-width: 768px) {
+        .about-text {
+        font-size: 18px;
+        max-width: 573px;
+        margin: 0 auto;
+    }
 }
 @media (min-width: 768px) and (min-resolution: 192dpi) {
     .about-container {
-        background-image: url(../img/about/about-tab-2x.jpg);
+        background-image: url(/img/about/about-tab-2x.jpg);
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .about-container {
+     .about-container {
         background-image: url(../img/about/about-desk-1x.jpg);
         width: 1440px;
         height: 462px;
-    }
-
-    .about-subtitle {
-        font-size: 56px;
-        max-width: 620px;
         margin: 0 auto;
-    }
-    .about-text {
-        font-size: 18px;
-        max-width: 573px;
-        margin: 0 auto;
-    }
+        
+     }     
 }
 @media (min-width: 1440px) and (min-resolution: 192dpi) {
     .about-container {
-        background-image: url(../img/about/about-desk-2x.jpg);
+        background-image: url(/img/about/about-desk-2x.jpg);
     }
 }
 
@@ -73,9 +63,8 @@
     line-height: 1.5;
     text-align: center;
     color: #fff;
-    padding-top: 64px;
+    
 }
-
 
 
 .about-subtitle {
@@ -89,8 +78,6 @@
     margin-top: 12px;
 }
 
-
-
 .about-text {    
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
@@ -99,4 +86,25 @@
     text-align: center;
     color: #fff;
     margin-top: 20px;
+}
+
+@media screen and (min-width: 1440px) {
+        .about-subtitle {
+        font-size: 56px;
+        max-width: 629px;
+        margin: 0 auto;
+    }
+
+}
+@media screen and (min-width: 1440px) {
+    .about-title {
+        padding-top: 112px;
+    }
+}
+@media screen and (min-width: 1440px) {
+        .about-text {
+        font-size: 18px;
+        max-width: 573px;
+       
+    }
 }
