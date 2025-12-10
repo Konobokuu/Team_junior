@@ -104,9 +104,15 @@
         height: 113px;
     }
 
+    ul li:nth-child(7) .assortment-div,
+    ul li:nth-child(8) .assortment-div {
+        height: 91px;
+    }
+
     .assortment img {
         border-radius: 32px;
         width: 340px;
+        пше
     }
 
     .assortment-button {
@@ -133,12 +139,18 @@
 
     .assortment-div {
         width: 310px;
+        height: 113px;
     }
 
     ul li:nth-child(5) .assortment-div,
     ul li:nth-child(8) .assortment-div {
         margin-top: 27px;
         margin-bottom: 5px;
+        height: 113px;
+    }
+
+    ul li:nth-child(7) .assortment-div {
+        height: 113px;
     }
 
     .assortment img {
