@@ -42,7 +42,10 @@
     line-height: 1.6;
     text-align: center;
     color: #fff;
-    margin-top: 20px;
+    padding: 16px;
+    margin: 0 auto;
+    max-width: 288px;
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -59,9 +62,9 @@
 @media screen and (min-width: 768px) {
         .about-text {
         font-size: 18px;
-        max-width: 573px;
+        max-width: 590px;
         margin: 0 auto;
-        margin-top: 24px;
+        padding-bottom: 80px;
     }
 }
 @media (min-width: 768px) and (min-resolution: 192dpi) {
@@ -90,18 +93,20 @@
         font-size: 56px;
         max-width: 629px;
         margin: 0 auto;
+       
     }
 
 }
 @media screen and (min-width: 1440px) {
     .about-title {
         padding-top: 112px;
+        padding-bottom: 24px;
     }
 }
 @media screen and (min-width: 1440px) {
         .about-text {
         font-size: 18px;
-        max-width: 573px;
-       margin-top: 24px;
+        max-width: 600px;
+       
     }
 }
