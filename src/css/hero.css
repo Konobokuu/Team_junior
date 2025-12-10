@@ -1,12 +1,12 @@
 .hero-section {
-  padding: 64px 0;
+  padding: 64px;
   background-color: #EBF8ED; 
 }
 
 .hero-container {
   display: flex;
   flex-direction: column;
-  gap: 40px; /* Увеличил для телефона */
+  gap: 40px;
 }
 
 .hero-content {
@@ -18,7 +18,7 @@
 .hero-title {
   font-family:"Comfortaa", sans-serif; 
   font-weight: 700;
-  font-size: 28px;
+  font-size: 40px;
   line-height: 1.2;
   color: #030A06;
   margin-bottom: 0;
@@ -34,19 +34,19 @@
   font-size: 16px;
   color: #030A06; 
   max-width: 288px;
-  font-family: "Fira-Sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   line-height: 1.5;
   margin-bottom: 0;
 }
 
 .hero-button {
-  font-family: "Fira-Sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   display: inline-block;
   padding: 12px 24px;
   background-color: #030A06; 
   color: #FFFFFF;            
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 16px;
   border-radius: 6px;
   transition: 0.25s ease;
@@ -69,7 +69,7 @@
 .hero-image-wrapper {
   width: 100%;
   border-radius: 40px;
-  overflow: hidden; /* Добавил чтобы картинка не выходила за скругленные углы */
+  overflow: hidden;
 }
 
 .hero-image-wrapper img {
@@ -78,10 +78,10 @@
   display: block;
 }
 
-/* Планшетная версия */
 @media (min-width: 768px) {
   .hero-section {
-    padding: 32px 0;
+    padding-top: 32px;
+    padding-bottom: 64px;
   }
   
   .hero-container {
@@ -128,10 +128,11 @@
   }
 }
 
-/* Десктопная версия */
+
 @media (min-width: 1440px) {
   .hero-section {
-    padding: 32px 0;
+    padding-top: 32px;
+    padding-bottom: 64px;
   }
 
   .hero-container {
